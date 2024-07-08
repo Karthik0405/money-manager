@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.Transaction-item-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  border-style: solid;
+  border-top: 0px;
+  width: 350px;
+  height: 50px;
+}
+.Transaction-item-list-items {
+  color: #334155;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 15px;
+}
+.Transaction-item-list-image {
+  width: 20px;
+}
+.Transaction-button {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}

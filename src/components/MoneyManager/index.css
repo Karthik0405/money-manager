@@ -1,0 +1,135 @@
+/* Write your CSS here */
+.money-manager-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  width: 100vw;
+}
+.user-name-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 40px;
+  background-size: cover;
+  width: 70vw;
+  border-radius: 20px;
+}
+@media screen and (max-width: 767px) {
+  .user-name-container {
+    align-items: center;
+  }
+}
+.user-name {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.user-name-description {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+}
+.user-name-span {
+  color: #0b69ff;
+}
+.add-transaction-container {
+  border-color: #d7dfe9;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.add-transaction-heading {
+  color: #1e293b;
+  font-size: 26px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  color: #7e858e;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.form-input {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-bottom: 20px;
+  outline: none;
+  border-color: #7e858e;
+  border-style: solid;
+  border-width: 1px;
+}
+.add-button {
+  background-color: #0b69ff;
+  height: 45px;
+  width: 80px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.add-transaction-history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .add-transaction-history-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.history-container-div {
+  padding: 25px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  border-color: #d7dfe9;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 10px;
+  width: 350px;
+  height: 50px;
+  list-style-type: none;
+  padding: 0px;
+}
+.history-container-para {
+  margin-top: 0px;
+  color: #334155;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.history-container-list {
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.history-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}

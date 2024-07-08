@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.money-details-list-contianer {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  height: 140px;
+}
+
+.money-details-bg-1 {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.money-details-bg-2 {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.money-details-bg-3 {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.money-details-list-items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0px;
+}
+@media screen and (max-width: 767px) {
+  .money-details-list-items {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.money-details-img {
+  width: 80px;
+  margin-right: 20px;
+}
+.money-details-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #7e858e;
+}
+.money-details-amount {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  color: #7e858e;
+  margin-top: 15px;
+}
